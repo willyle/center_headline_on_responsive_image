@@ -1,0 +1,26 @@
+ul.nav{
+	width: 176px;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.nav li{
+	display: inline-block;
+}
+
+.logo_banner{
+	position: relative;
+}
+
+.logo_image{
+	position: absolute;
+	width: 100%;
+}
+
+.logo_text{
+	color: #ffffff;
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+}
